@@ -1,4 +1,4 @@
-<%-- 
+    <%-- 
     Document   : welcome
     Created on : Nov 21, 2016, 10:27:26 PM
     Author     : Khairul
@@ -136,7 +136,7 @@
                     <form name="myForm" action="main.form" class="form-horizontal" method="POST" >
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label class="control-label col-sm-4" for="memo">Memo No: MCHTI/Azim:/Birth/</label>
+                                <label class="control-label col-sm-4" for="memo">Memo No:</label>
                                 <div class="col-md-7">
                                     <input type="text" style="padding-left:10px;" name="memo" id="memo" class="form-control input-sm" placeholder="Enter memo no"  />
                                 </div>

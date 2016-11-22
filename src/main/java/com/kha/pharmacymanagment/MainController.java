@@ -19,7 +19,7 @@ public class MainController {
 
     @RequestMapping("/")
     public String view(Model model) {
-        return "welcome";
+        return "login";
     }
     @RequestMapping(value = "/welcome.htm", method = RequestMethod.GET)
     public String wel(Model model) {
