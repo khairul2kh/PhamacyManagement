@@ -118,7 +118,7 @@
                                 <li  ><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
                                 <li  ><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
                                 <li role="presentation" class="divider"></li>
-                                <li><a role="menuitem" tabindex="-1" href='${pageContext.request.contextPath}/logout'>
+                                <li><a role="menuitem" tabindex="-1" href='${pageContext.request.contextPath}/'>
                                         <span class="glyphicon glyphicon-log-out"></span>&nbsp; Log Out</a></li>
 
                             </ul>
