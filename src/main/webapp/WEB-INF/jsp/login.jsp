@@ -39,7 +39,7 @@
                         <div style="margin-top:10px" class="form-group">
                             <!-- Button -->
                             <div class="col-sm-12 controls">
-                                <a id="btn-login" href="#" class="btn btn-primary col-sm-12">Login  </a>
+                                <a id="btn-login" href="#" class="btn btn-primary col-sm-12 ">  Login  </a>
                                 <!--                                <a id="btn-fblogin" href="#" class="btn btn-primary">Login with Facebook</a>-->
                             </div>
                         </div>
