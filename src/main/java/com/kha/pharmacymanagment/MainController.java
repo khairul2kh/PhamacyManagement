@@ -16,10 +16,19 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 public class MainController {
+
     @RequestMapping("/")
-    public String view(Model model){
+    public String view(Model model) {
         return "welcome";
     }
-            
-    
+    @RequestMapping(value = "/welcome.htm", method = RequestMethod.GET)
+    public String wel(Model model) {
+        return "welcome";
+    }
+
+    @RequestMapping(value = "/second.form", method = RequestMethod.GET)
+    public String second(Model model) {
+        return "second";
+    }
+
 }
